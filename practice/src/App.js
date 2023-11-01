@@ -1,25 +1,60 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+/*function MyButton(){
+  return(
+    <button>Hit me {2+2}</button>
   );
 }
 
-export default App;
+const products = [
+  {title: 'Apple',isFruit:true, id:1},
+  {title: 'Mango',isFruit:true, id:2},
+  {title: 'Onion',isFruit:false, id:3}
+
+]
+
+export default function App(){
+  /*return(
+    <div>
+       <p>Building with React</p>
+        <MyButton />
+    </div>
+  );
+
+
+
+  
+  const ListItems = products.map(product =>
+    <li key={product.id}
+    style={{
+      color: product.isFruit ? 'magenta' : 'darkgreen'
+    }}> 
+        {product.title}
+      </li>
+    );
+  
+  return(
+      <ul>{ListItems}</ul>
+    );
+}
+
+export default function MyButton(){
+  function handleClick(){
+    alert('You clicked me!');
+  }
+
+  return(
+    <button onClick={handleClick}>
+      click me
+    </button>
+  )
+}*/
+
+import {useState} from 'react';
+
+export default function App()
+
+
+
+
+
+
+
