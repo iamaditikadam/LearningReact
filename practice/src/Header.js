@@ -2,7 +2,7 @@ const Header = () => {
     return (
         <div
         style={{
-            background: "deepPink",
+            background: "gray",
             color: "white",
             display: "flex",
             alignItems: "center",

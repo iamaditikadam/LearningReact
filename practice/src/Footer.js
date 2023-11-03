@@ -2,7 +2,7 @@ const Footer=() => {
     return(
         <div style={{
             height:"60px",
-            backgroundColor:"deepPink",
+            backgroundColor:"gray",
             display:"flex",
             color:"white",
             alignItems:"center",
