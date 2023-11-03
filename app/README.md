@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,11 +68,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# LearningReact
-Welcome to my upcoming React learning journey! In this repository, I'll be documenting my experiences, progress, and projects as I learn.
-
-## About React
-React is a popular JavaScript library for building user interfaces. React allows you to create reusable UI components and efficiently manage the state of your application, making it a powerful tool for building modern web applications.
-
->>>>>>> a2aebc516e9db903d3966a2477e133eee765bd4e
