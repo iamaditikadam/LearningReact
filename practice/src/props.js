@@ -1,4 +1,4 @@
-function props(){
+function Props(){
     return(
         <div>
             <h2>
@@ -10,4 +10,4 @@ function props(){
     )
 }
 
-export default props
+export default Props

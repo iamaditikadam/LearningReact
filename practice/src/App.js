@@ -77,14 +77,16 @@ function MyButton() {
 import "./App.css";
 //import Header from "./Header";
 //import Footer from "./Footer";
-import props from "./props";
+import Props from "./Props";
 
 
 export default function App(){
   return(
     <div className="App">
       <h1>Introducing Props </h1>
-      <props />
+      <Props />
+      <Props />
+      <Props />
     </div>
   )
 }
