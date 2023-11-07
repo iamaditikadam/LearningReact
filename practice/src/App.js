@@ -75,15 +75,16 @@ function MyButton() {
 }*/
 
 import "./App.css";
-import Header from "./Header";
-import Footer from "./Footer";
+//import Header from "./Header";
+//import Footer from "./Footer";
+import props from "./props";
 
 
 export default function App(){
   return(
     <div className="App">
-      <Header />
-      <Footer />
+      <h1>Introducing Props </h1>
+      <props />
     </div>
   )
 }
