@@ -72,7 +72,7 @@ function MyButton() {
       Clicked {count} times
     </button>
   );
-}*/
+}
 
 import "./App.css";
 //import Header from "./Header";
@@ -91,7 +91,42 @@ export default function App(){
   )
 }
 
+import "./App.css";
 
+function App(){
+
+  /*function showAlert()
+  {
+    alert("Showing an alert");
+  }
+
+  const onTextChange = () => {
+    console.log("Onchange event is triggered")
+  }
+
+  return(
+    <div className="App"> 
+      { /* <button onClick={showAlert}>Click me</button> */
+      /*<input onChange={onTextChange} />
+
+    </div>
+  )
+
+}
+
+export default App;*/
+
+import "./App.css";
+import { signInWithGoogle } from "./firebase";
+
+function App() {
+  return <div className="App">
+      <button onClick={signInWithGoogle}>Sign in with Google</button>
+  </div>
+}
+
+
+export default App;
 
 
 
