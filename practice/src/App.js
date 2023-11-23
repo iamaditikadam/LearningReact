@@ -114,7 +114,7 @@ function App(){
 
 }
 
-export default App;*/
+export default App;
 
 import "./App.css";
 import { signInWithGoogle } from "./firebase";
@@ -126,7 +126,24 @@ function App() {
 }
 
 
+export default App;*/
+
+import "./App.css";
+import TicTacToe from "./TicTacToe"
+
+function App()
+{
+  return(
+    <div>
+    
+      <TicTacToe/>
+
+    </div>
+  );
+}
+
 export default App;
+
 
 
 
